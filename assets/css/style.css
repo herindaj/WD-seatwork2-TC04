@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+}
+header,
+header * {
+    outline: 1px dashed blue;
+}
+header * {
+width: 100vh;
+}
