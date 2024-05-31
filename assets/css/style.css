@@ -9,7 +9,7 @@ header * {
 section.resume,
 section.resume * {
     outline: 1px dashed blue;
-    )
+}
 
 header * {
 width: 100vh;
@@ -38,7 +38,7 @@ z-index: 20;
 
 & :hover{
     color:black;
-    
+
 }
  }
 }
@@ -61,7 +61,7 @@ section.resume {
         opacity: 90%;
         z-index: -1;
     }
-    & .content {
+    & .words {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -89,10 +89,10 @@ section.resume {
             transition: .3S ease-out;
 
 
-            &:hover (
+            &:hover {
                 transform: SCALE(110%) translateY(-4px);
                 box-shadow: rgba(0, 0, 0, 0.2); 0px 15px 10px -7px;
-            )
+            }
 
         }
     }
